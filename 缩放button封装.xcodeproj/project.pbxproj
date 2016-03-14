@@ -15,6 +15,7 @@
 		18C86E6F1C96B95200679486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C86E6D1C96B95200679486 /* LaunchScreen.storyboard */; };
 		18C86E7A1C96B95200679486 /* __button__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C86E791C96B95200679486 /* __button__Tests.m */; };
 		18C86E851C96B95200679486 /* __button__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C86E841C96B95200679486 /* __button__UITests.m */; };
+		18C86E941C96B9AF00679486 /* YLSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C86E931C96B9AF00679486 /* YLSButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18C86E801C96B95200679486 /* 缩放button封装UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "缩放button封装UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C86E841C96B95200679486 /* __button__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __button__UITests.m; sourceTree = "<group>"; };
 		18C86E861C96B95200679486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C86E921C96B9AF00679486 /* YLSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSButton.h; sourceTree = "<group>"; };
+		18C86E931C96B9AF00679486 /* YLSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18C86E631C96B95200679486 /* AppDelegate.m */,
 				18C86E651C96B95200679486 /* ViewController.h */,
 				18C86E661C96B95200679486 /* ViewController.m */,
+				18C86E921C96B9AF00679486 /* YLSButton.h */,
+				18C86E931C96B9AF00679486 /* YLSButton.m */,
 				18C86E681C96B95200679486 /* Main.storyboard */,
 				18C86E6B1C96B95200679486 /* Assets.xcassets */,
 				18C86E6D1C96B95200679486 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				18C86E671C96B95200679486 /* ViewController.m in Sources */,
 				18C86E641C96B95200679486 /* AppDelegate.m in Sources */,
+				18C86E941C96B9AF00679486 /* YLSButton.m in Sources */,
 				18C86E611C96B95200679486 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
